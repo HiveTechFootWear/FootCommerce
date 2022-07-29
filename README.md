@@ -1,7 +1,7 @@
-# Forum App in React & Redux + Django
+# HiveTechFootWear in React & Redux + Django
 
 ```
-Forum App, with a frontend built in React & Redux and a backend built in Django API.
+HiveTechFootWear, with a frontend built in React & Redux and a backend built in Django API.
 ```
 
 ## Live Demo
@@ -24,7 +24,7 @@ Check out [API LIVE DEMO](https://forum-prod-api.herokuapp.com/) here!!
 1. Git Clone
 
 ```
-git clone git@github.com:Tech-i-s/techis-wd-forum-django-react.git
+git clone 
 ```
 
 2. Backend setting
