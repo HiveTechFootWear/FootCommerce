@@ -21,7 +21,7 @@ Check out [API LIVE DEMO](https://forum-prod-api.herokuapp.com/) here!!
 
 ## How to Install
 
-1. Git Clone
+1. Git Clone https://github.com/HiveTechFootWear/HiveTechFootWear.git
 
 ```
 git clone 
@@ -38,7 +38,7 @@ pip install -r requirements.txt
 python manage.py makemigrations
 python manage.py migrate
 python manage.py runserver
-# Open http://127.0.0.1:8000/posts/
+# Open http://127.0.0.1:8000/
 
 # To have dummy data for testing run:
 python manage.py fixtures/dummy-data.json
