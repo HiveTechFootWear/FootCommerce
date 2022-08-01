@@ -3,20 +3,16 @@ import axios from "axios";
 export const LOGIN_USER_KEY = "HIVE_TECHWEAR_LOGIN_USER_KEY";
 
 var baseURL;
-// if (process.env.REACT_APP_ENVIRONMENT && process.env.REACT_APP_ENVIRONMENT === "PRODUCTION") {
-// 	baseURL = process.env.REACT_APP_API_BASE_URL;
-// } else {
-// 	baseURL = "https://hive-techware-backend.herokuapp.com/";
-// }
-if (
-  process.env.REACT_APP_ENVIRONMENT &&
-  process.env.REACT_APP_ENVIRONMENT === "PRODUCTION"
-) {
-  baseURL = process.env.REACT_APP_API_BASE_URL;
-} else {
-  baseURL = "http://127.0.0.1:8001/";
-}
 
+// if (
+//   process.env.REACT_APP_ENVIRONMENT &&
+//   process.env.REACT_APP_ENVIRONMENT === "PRODUCTION"
+// ) {
+//   baseURL = process.env.REACT_APP_API_BASE_URL;
+// } else {
+//   baseURL = "http://127.0.0.1:8003/";
+// }
+baseURL = "https://hivetechfootwear-backend.herokuapp.com/";
 const api = axios.create({
   baseURL: baseURL,
   headers: {
