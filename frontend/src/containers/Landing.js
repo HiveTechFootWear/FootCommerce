@@ -4,10 +4,10 @@ import { Link } from "react-router-dom";
 
 // import BannerMobileImage from "../assets/images/Banner-Mobile.png";
 import BannerImage from "../assets/images/background-image-footwear.png";
-import OfferImage001 from "../assets/images/offer001.png";
-import OfferImage002 from "../assets/images/offer002.png";
-import OfferImage003 from "../assets/images/offer003.png";
-import OfferImage004 from "../assets/images/offer004.png";
+import OfferImage001 from "../assets/images/category-land1.png";
+import OfferImage002 from "../assets/images/category-land2.png";
+import OfferImage003 from "../assets/images/category-land3.png";
+import OfferImage004 from "../assets/images/category-land4.png";
 import Empty from "../components/default/Empty";
 import Footer from "../components/default/Footer";
 import Header from "../components/default/Header";
@@ -70,34 +70,34 @@ export default function Landing() {
             <div className="offer">
               <div className="offer-items">
                 <img className="offer-image" src={OfferImage001} alt="" />
-                <div className="offer-text">
+                {/* <div className="offer-text">
                   <p>UP TO 25% OFF</p>
                   <p>On all the T-Shirt brands</p>
-                </div>
+                </div> */}
                 <button className="offer-btn offer-001">GET NOW</button>
               </div>
               <div className="offer-items">
                 <img className="offer-image" src={OfferImage002} alt="" />
-                <div className="offer-text">
+                {/* <div className="offer-text">
                   <p>UP TO 35% OFF</p>
                   <p>On all the Hat brands</p>
-                </div>
+                </div> */}
                 <button className="offer-btn offer-002">GET NOW</button>
               </div>
               <div className="offer-items">
                 <img className="offer-image" src={OfferImage003} alt="" />
-                <div className="offer-text">
+                {/* <div className="offer-text">
                   <p>UP TO 50% OFF</p>
                   <p>On all the Bottom brands</p>
-                </div>
+                </div> */}
                 <button className="offer-btn offer-003">GET NOW</button>
               </div>
               <div className="offer-items">
                 <img className="offer-image" src={OfferImage004} alt="" />
-                <div className="offer-text">
+                {/* <div className="offer-text">
                   <p>UP TO 75% OFF</p>
                   <p>On all the Shirt brands</p>
-                </div>
+                </div> */}
                 <button className="offer-btn offer-004">GET NOW</button>
               </div>
             </div>
