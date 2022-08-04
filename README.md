@@ -8,9 +8,9 @@ HiveTechFootWear, with a frontend built in React & Redux and a backend built in 
 
 **This App uses a Heroku free plan, so I am afraid that it takes time to load the pages.**
 
-Check out [FRONTEND LIVE DEMO](https://forum-prod-frontend.herokuapp.com/) here!!
+Check out [FRONTEND LIVE DEMO](https://hivetechfootwear-frontend.herokuapp.com/) here!!
 
-Check out [API LIVE DEMO](https://forum-prod-api.herokuapp.com/) here!!
+Check out [API LIVE DEMO](https://hivetechfootwear-backend.herokuapp.com/) here!!
 
 ## Tech used
 
