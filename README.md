@@ -1,7 +1,7 @@
-# HiveTechFootWear in React & Redux + Django
+# FootCommerce in React & Redux + Django
 
 ```
-HiveTechFootWear, with a frontend built in React & Redux and a backend built in Django API.
+FootCommerce, with a frontend built in React & Redux and a backend built in Django API.
 ```
 
 ## Live Demo
